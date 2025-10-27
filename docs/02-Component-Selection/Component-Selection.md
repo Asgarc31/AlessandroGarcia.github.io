@@ -10,12 +10,14 @@ title: Component Selection Example
 
 *Table 1: Example component selection*
 
-**External Clock Module**
+**IR Distance Sensor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](image.png)<br>Option 1.<br> TSSP53038 	
+SENSOR OPT 940NM IR RADIAL 3 <br>$0.84/each<br>[link to product](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSSP53038/20379937)                 | \* Inexpensive<br>\* Falls under voltage constraints<br>\* Easy to mount to PCB                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| ![](image-1.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](image-2.png)<br>\* Option 3. <br>\* SEN0413 SENSOR OPT 850NM IR MODULE <br>\* $19.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0413/14322644) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 

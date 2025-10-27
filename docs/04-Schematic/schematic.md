@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic shows the connections between 
+This schematic shows the connections between the PIC nano, IR sensor, and speaker. The 
 
 
 ![schematic](Schematic.png){style width:"350" height:"300;"}
