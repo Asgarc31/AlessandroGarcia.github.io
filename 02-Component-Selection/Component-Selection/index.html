@@ -89,11 +89,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#examples" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -513,17 +508,6 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Component Selection Example
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -533,56 +517,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -808,47 +742,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#style-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 1
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style 2
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -872,12 +765,6 @@
 
   <h1>Component Selection Example</h1>
 
-<h2 id="examples">Examples</h2>
-<h3 id="style-1">Style 1</h3>
-<blockquote>
-<p>This is the example found in the assignment, uses more html</p>
-</blockquote>
-<p><em>Table 1: Example component selection</em></p>
 <p><strong>IR Distance Sensor</strong></p>
 <table>
 <thead>
@@ -889,12 +776,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image.png" data-desc-position="bottom"><img alt="" src="../image.png"></a><br>Option 1.<br> TSSP53038</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>SENSOR OPT 940NM IR RADIAL 3 <br>$0.84/each<br><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSSP53038/20379937">link to product</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image.png" data-desc-position="bottom"><img alt="" src="../image.png"></a><br>Option 1.<br> TSSP53038 SENSOR OPT 940NM IR RADIAL 3 <br>$0.84/each<br><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSSP53038/20379937">link to product</a></td>
 <td>* Inexpensive<br>* Falls under voltage constraints<br>* Easy to mount to PCB</td>
 <td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
 </tr>
@@ -910,77 +792,124 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>IR Sensor</strong></p>
-<ol>
-<li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
+<p><strong>Choice:</strong> Option 2. TSSP53038 SENSOR OPT 940NM IR RADIAL 3</p>
+<p><strong>Rationale:</strong> This sensor is both the cheapest and easiest to work with.</p>
+<p><strong>Audio Amp</strong></p>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-3.png" data-desc-position="bottom"><img alt="" src="../image-3.png"></a><br>Option 1.<br> PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP <br>$0.48/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8302AADCR/4033280">link to product</a></td>
+<td>* Inexpensive<br>* Falls under voltage constraints<br>*</td>
+<td>* Surface mounted component<br>* Needs special PCB layout.</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-1.png" data-desc-position="bottom"><img alt="" src="../image-1.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
-<td></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-2.png" data-desc-position="bottom"><img alt="" src="../image-2.png"></a><br>* Option 3. <br>* SEN0413 SENSOR OPT 850NM IR MODULE <br>* $19.90/each <br>* <a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0413/14322644">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
 </tr>
 </tbody>
 </table>
-</li>
-<li>
-<p>CTX936TR-ND surface mount oscillator</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
-</ul>
+<p><strong>Choice:</strong> Option 1. PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP</p>
+<p><strong>Rationale:</strong> This Audio amp is the only one I could find that fell within the desired voltage constraints.</p>
+<p><strong>Speaker</strong></p>
 <table>
 <thead>
 <tr>
-<th>Pros</th>
-<th>Cons</th>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
-<td>More expensive</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-3.png" data-desc-position="bottom"><img alt="" src="../image-3.png"></a><br>Option 1.<br> PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP <br>$0.48/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8302AADCR/4033280">link to product</a></td>
+<td>* Inexpensive<br>* Falls under voltage constraints<br>*</td>
+<td>* Surface mounted component<br>* Needs special PCB layout.</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
-<td>Slow shipping speed</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-1.png" data-desc-position="bottom"><img alt="" src="../image-1.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
 </tr>
 <tr>
-<td>Direct interface with PSoC (no external circuitry required) range</td>
-<td></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-2.png" data-desc-position="bottom"><img alt="" src="../image-2.png"></a><br>* Option 3. <br>* SEN0413 SENSOR OPT 850NM IR MODULE <br>* $19.90/each <br>* <a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0413/14322644">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
 </tr>
 </tbody>
 </table>
-</li>
-</ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 1. PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP</p>
+<p><strong>Rationale:</strong> This Audio amp is the only one I could find that fell within the desired voltage constraints.</p>
+<p><strong>Op-Amp</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-3.png" data-desc-position="bottom"><img alt="" src="../image-3.png"></a><br>Option 1.<br> PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP <br>$0.48/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8302AADCR/4033280">link to product</a></td>
+<td>* Inexpensive<br>* Falls within voltage constraints<br>* Does not generate much heat</td>
+<td>* Surface mounted component<br>* Needs special PCB layout.</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-4.png" data-desc-position="bottom"><img alt="" src="../image-4.png"></a><br>* Option 2. <br>* IS31AP4991A-GRLS2-TR IC AMP CLASS AB MONO 1.15W 8SOIC <br>* $0.41/each <br>* <a href="https://www.digikey.com/en/products/detail/lumissil-microsystems/IS31AP4991A-GRLS2-TR/5319733">Link to product</a></td>
+<td>* Great sound quality <br>* Falls within voltage constraints <br> * Inexpensive</td>
+<td>* Moderate heat generation <br>* Slow shipping speed</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-2.png" data-desc-position="bottom"><img alt="" src="../image-2.png"></a><br>* Option 3. <br>* SEN0413 SENSOR OPT 850NM IR MODULE <br>* $19.90/each <br>* <a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0413/14322644">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1. PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP</p>
+<p><strong>Rationale:</strong> This audio amp is the class D amplifier I could find that fell within the desired voltage constraints.</p>
+<p><strong>Voltage Regulator</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-3.png" data-desc-position="bottom"><img alt="" src="../image-3.png"></a><br>Option 1.<br> AP7375-33SA-7 IC REG LIN 3.3V 300MA SOT23-3 <br>$0.48/each<br><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8302AADCR/4033280">link to product</a></td>
+<td>* Inexpensive<br>* Falls under voltage constraints<br>*</td>
+<td>* Surface mounted component<br>* Needs special PCB layout.</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-1.png" data-desc-position="bottom"><img alt="" src="../image-1.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image-2.png" data-desc-position="bottom"><img alt="" src="../image-2.png"></a><br>* Option 3. <br>* SEN0413 SENSOR OPT 850NM IR MODULE <br>* $19.90/each <br>* <a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0413/14322644">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1. PAM8302AADCR IC AMP CLASS D MONO 2.5W 8SOP</p>
+<p><strong>Rationale:</strong> This Audio amp is the only one I could find that fell within the desired voltage constraints.</p>
 
 
 
