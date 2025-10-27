@@ -11,4 +11,4 @@ This diagram shows the circuit that involves a force sensor, voltage regulator, 
 
 ## Block Diagram 
 
-![Block Diagram](IndBlockDiagram_Garcia (1).drawio.png)
+![Block Diagram](IndBlockDiagram_Garcia(1).drawio.png)
