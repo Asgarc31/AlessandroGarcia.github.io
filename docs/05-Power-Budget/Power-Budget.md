@@ -3,20 +3,18 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The power budget is used to show help us ensure that all the components will operate together. The sheet is sectioned into major components, the components on the +12V rail, and the components on the +5V rail. Then I calculated the current draw from the components because to ensure that it is less than the maximum current provided with a 25% safety margin.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
+![budget1](budget1.png){style width:"350" height:"300;"}
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![budget2](budget2.png){style width:"350" height:"300;"}
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+The power budget that I have created shows that the components I have selected will operate because of the the surplus current that was calculated.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](Garcia_PowerBudget.pdf), and a Microsoft Excel Sheet [*here*](Garcia_PowerBudget.xlsx).
