@@ -25,7 +25,7 @@ title: Component Selection Example
 
 > Also acceptable, more markdown friendly
 
-**External Clock Module**
+**IR Sensor**
 
 1. XC1259TR-ND surface mount crystal
 
